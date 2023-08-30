@@ -3,7 +3,7 @@
     color: rgb(170,172,175)!important;
 }
 
-.navbar{
+#menu{
     background-color: #111827!important;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .right-1{
-    background: url(Imagenes/Guitarrista.jpg);
+    background: url(img/Guitarra\ 1.jpg);
     background-color: #111827;
     background-size: cover;
     background-position: center;
@@ -171,7 +171,7 @@
 }
 
 .left{
-    background: url(Imagenes/Guitarra\ 1.jpg);
+    background: url(img/Guitarra\ 1.jpg);
     background-color: #111827;
     background-size: cover;
     background-position: center;
