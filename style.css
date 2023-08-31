@@ -1,4 +1,4 @@
-
+/* Menu */
 .nav-link:hover{
     color: rgb(170,172,175)!important;
 }
@@ -16,6 +16,8 @@
 
 
 
+
+/* Jumbotron 1*/
 .container-1{
     margin-top: 40px;
     display: grid;
@@ -25,7 +27,7 @@
 }
 
 .right-1{
-    background: url(img/Guitarra\ 1.jpg);
+    background: url(img/guitarrista.jpg);
     background-color: #111827;
     background-size: cover;
     background-position: center;
@@ -83,17 +85,27 @@
     cursor: pointer;
 }
 
+.rectangulo{
+    background-color: #111827;
+    height: 55px;
+}
 
 
-@media (max-width:768px){
+
+@media (max-width:1200px){
     .container-1{
         width: 100%;
         grid-template-columns: 1fr;
+    }
+    .left-1 a{
+        font-size: 15px;
+        margin-bottom: 15px;
     }
     .barra{
         width: 400px;
         margin-right: 80px;
         margin-left: 80px;
+        justify-content: center;
     }
     .left-1 h1{
         font-size: 35px;
@@ -101,7 +113,7 @@
         line-height: 2.5rem;
         margin-right: 80px;
         margin-left: 80px;
-        margin-bottom: 0;
+        margin-bottom: 40px;
     }
     .left-1 p{
         font-size: 15px;
@@ -109,31 +121,44 @@
         line-height: 1.5rem;
         margin-right: 80px;
         margin-left: 80px;
-        margin-bottom: 0;
+        margin-bottom: 10px;
     }
     .button{
         width: 400px;
         margin-right: 80px;
         margin-left: 80px;
         margin-top: 10px;
+        margin-bottom: 2px;
+        justify-content: center;
     }
     .left-1 p2{
-        font-size: 15px;
+        font-size: 13px;
         text-align: left;
         line-height: 1rem;
         margin-right: 80px;
         margin-left: 80px;
     }
-
+    .right-1{
+        width: auto;
+        height: 225px;
+        background-color: #111827;
+        background-size: cover;
+        background-position: center;
+        justify-content: center;
+    }
+    .rectangulo{
+        height: 0%;
+        width: 0;
+    }
 }
 
 
 
-.rectangulo{
-    background-color: #111827;
-    height: 55px;
-}
 
+
+
+
+/*Cards*/
 .container-0{
     margin-top: 125px;
     background-color: white;
@@ -160,6 +185,10 @@
 
 
 
+
+
+/*Jumbotron2*/
+
 .container-2{
     margin-top: 110px;
     display: grid;
@@ -171,7 +200,7 @@
 }
 
 .left{
-    background: url(img/Guitarra\ 1.jpg);
+    background: url(img/guitarra\ 1.jpg);
     background-color: #111827;
     background-size: cover;
     background-position: center;
@@ -204,11 +233,183 @@
 }
 
 
+@media (max-width:768px){
+    .container-2{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .left{
+        width: 574px;
+        height: auto;
+        background-color: #111827;
+        background-size: cover;
+        background-position: center;
+    }
+    .right h2{
+        font-size: 15px;
+        text-align: left;
+        line-height: 2.2rem;
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+    .right h1{
+        font-size: 28px;
+        text-align: left;
+        line-height: 2.2rem;
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom: 0px;
+    }
+    .right p{
+        font-size: 18px;
+        text-align: left;
+        line-height: 1.8rem;
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .right a{
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+}
 
 
 
 
 
+
+
+
+/*Cards*/
+.container-0{
+    margin-top: 125px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.container-0 h3{
+    font-size: 35px; line-height: 3rem; font-weight: 900;
+}
+
+.container-0 p{
+    color:gray; font-size: 20px; line-height: 3rem;
+}
+
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+
+
+
+
+/*Jumbotron2*/
+
+.container-2{
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 615px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0%;
+}
+
+.left{
+    background: url(img/guitarra\ 1.jpg);
+    background-color: #111827;
+    background-size: cover;
+    background-position: center;
+}
+
+.right{
+    background-color: #111827;
+    display: grid;
+    text-align: left;
+}
+
+.right h1{
+    color:white; font-size: 2.3rem; line-height: 2.5rem; font-weight: 900; margin-left: 5%;
+    margin-right: 20%; margin-bottom: 0;
+}
+
+.right h2{
+    color:rgb(218,212,212); font-size: 1.1rem; font-weight: 100; font-stretch: narrower;
+    word-spacing: 5px; margin-left: 5%; margin-right: 20%; font-weight: 600; margin-bottom: 0; margin-top: 85px;
+}
+
+.right p{
+    color:white; margin-top: 0.75rem; font-size: 1.125rem; line-height: 1.75rem;
+    margin-left: 5%; margin-right: 20%; margin-bottom: 0;
+}
+
+.right a{
+    background: rgb(238, 235, 235); color:#111827; padding:12px 36px; border-radius: 5px;
+    text-decoration: none; margin-left: 5%; margin-right: 20%; width: 225px; height: 50px; font-weight: 500; margin-bottom: 70px;
+}
+
+
+@media (max-width:700px){
+    .container-2{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .left{
+        width: auto;
+        height: 225px;
+        background-color: #111827;
+        background-size: cover;
+        background-position: center;
+    }
+    .right h2{
+        font-size: 15px;
+        text-align: left;
+        line-height: 2.2rem;
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom: 0px;
+        margin-top: 15px;
+    }
+    .right h1{
+        font-size: 28px;
+        text-align: left;
+        line-height: 2.2rem;
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom: 0px;
+    }
+    .right p{
+        font-size: 18px;
+        text-align: left;
+        line-height: 1.8rem;
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .right a{
+        margin-right: 80px;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+}
+
+
+
+
+
+/*Footer*/
 
 *{
     list-style: none;
@@ -282,8 +483,6 @@
     }
 
 }
-
-
 
 
 .container-4{
