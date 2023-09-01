@@ -1,4 +1,5 @@
-/* Menu */
+/* Header */
+
 .nav-link:hover{
     color: rgb(170,172,175)!important;
 }
@@ -17,7 +18,8 @@
 
 
 
-/* Jumbotron 1*/
+/* Jumbotron*/
+
 .container-1{
     margin-top: 40px;
     display: grid;
@@ -38,7 +40,6 @@
     display: grid;
     place-items: center;
 }
-
 
 .left-1 h1{
     color:white; font-size: 60px; line-height: 4rem; font-weight: 900; margin-left: 19%;
@@ -65,7 +66,6 @@
     margin-bottom: 5%; margin-left: 19%; margin-right: 5%; margin-bottom: 25px;
 }
 
-
 .barra{
     font-size: 18px;
     width: 480px;
@@ -89,8 +89,6 @@
     background-color: #111827;
     height: 55px;
 }
-
-
 
 @media (max-width:1200px){
     .container-1{
@@ -156,9 +154,8 @@
 
 
 
+/*Catalogo*/
 
-
-/*Cards*/
 .container-0{
     margin-top: 125px;
     background-color: white;
@@ -173,21 +170,19 @@
     color:gray; font-size: 20px; line-height: 3rem;
 }
 
-
-
 .cards{
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     column-gap: 30px;
     row-gap: 30px;
+    justify-content: space-around;
 }
 
 
 
 
 
-/*Jumbotron2*/
+/*Adicionales*/
 
 .container-2{
     margin-top: 110px;
@@ -231,134 +226,6 @@
     background: rgb(238, 235, 235); color:#111827; padding:12px 36px; border-radius: 5px;
     text-decoration: none; margin-left: 5%; margin-right: 20%; width: 225px; height: 50px; font-weight: 500; margin-bottom: 70px;
 }
-
-
-@media (max-width:768px){
-    .container-2{
-        width: 100%;
-        grid-template-columns: 1fr;
-    }
-    .left{
-        width: 574px;
-        height: auto;
-        background-color: #111827;
-        background-size: cover;
-        background-position: center;
-    }
-    .right h2{
-        font-size: 15px;
-        text-align: left;
-        line-height: 2.2rem;
-        margin-right: 80px;
-        margin-left: 80px;
-        margin-bottom: 0px;
-        margin-top: 15px;
-    }
-    .right h1{
-        font-size: 28px;
-        text-align: left;
-        line-height: 2.2rem;
-        margin-right: 80px;
-        margin-left: 80px;
-        margin-bottom: 0px;
-    }
-    .right p{
-        font-size: 18px;
-        text-align: left;
-        line-height: 1.8rem;
-        margin-right: 80px;
-        margin-left: 80px;
-        margin-bottom: 20px;
-    }
-    .right a{
-        margin-right: 80px;
-        margin-left: 80px;
-        margin-bottom: 20px;
-        margin-top: 15px;
-    }
-}
-
-
-
-
-
-
-
-
-/*Cards*/
-.container-0{
-    margin-top: 125px;
-    background-color: white;
-    margin-bottom: 40px;
-}
-
-.container-0 h3{
-    font-size: 35px; line-height: 3rem; font-weight: 900;
-}
-
-.container-0 p{
-    color:gray; font-size: 20px; line-height: 3rem;
-}
-
-
-
-.cards{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    row-gap: 30px;
-}
-
-
-
-
-
-/*Jumbotron2*/
-
-.container-2{
-    margin-top: 110px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 615px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0%;
-}
-
-.left{
-    background: url(img/guitarra\ 1.jpg);
-    background-color: #111827;
-    background-size: cover;
-    background-position: center;
-}
-
-.right{
-    background-color: #111827;
-    display: grid;
-    text-align: left;
-}
-
-.right h1{
-    color:white; font-size: 2.3rem; line-height: 2.5rem; font-weight: 900; margin-left: 5%;
-    margin-right: 20%; margin-bottom: 0;
-}
-
-.right h2{
-    color:rgb(218,212,212); font-size: 1.1rem; font-weight: 100; font-stretch: narrower;
-    word-spacing: 5px; margin-left: 5%; margin-right: 20%; font-weight: 600; margin-bottom: 0; margin-top: 85px;
-}
-
-.right p{
-    color:white; margin-top: 0.75rem; font-size: 1.125rem; line-height: 1.75rem;
-    margin-left: 5%; margin-right: 20%; margin-bottom: 0;
-}
-
-.right a{
-    background: rgb(238, 235, 235); color:#111827; padding:12px 36px; border-radius: 5px;
-    text-decoration: none; margin-left: 5%; margin-right: 20%; width: 225px; height: 50px; font-weight: 500; margin-bottom: 70px;
-}
-
 
 @media (max-width:700px){
     .container-2{
@@ -415,7 +282,6 @@
     list-style: none;
     box-sizing: border-box;
 }
-
 
 .container-3{
     max-width: 1300px;
